@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 export default function Sales() {
   return (
@@ -16,10 +17,20 @@ export default function Sales() {
         </div>
         <div className="flex flex-col gap-2 w-2/5 ">
           <div className=" bg-slate-100 h-1/2">
-            <h3 className="text-xs">Summer Trvel Colection</h3>
+            <h3 className="text-[10px] pt-5 pb-2 font-bold">
+              Summer Trvel Colection
+            </h3>
+            <Link>
+              <p className="text-[10px] font-bold">Discover Now</p>
+            </Link>
           </div>
           <div className=" bg-slate-100 h-1/2">
-            <h3 className="text-xs">Summer Trvel Colection</h3>
+            <h3 className="text-[10px] pt-5 pb-2 font-bold">
+              Summer Trvel Colection
+            </h3>
+            <Link>
+              <p className="text-[10px] font-bold">Shop Now</p>
+            </Link>
           </div>
         </div>
       </div>
