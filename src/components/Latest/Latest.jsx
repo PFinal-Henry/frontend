@@ -1,5 +1,5 @@
 import React from "react";
-import { BsStar } from "react-icons/bs";
+import { BsStarFill } from "react-icons/bs";
 export default function Latest() {
   return (
     <div className="flex flex-col gap-6 px-8 pt-2 w-full">
@@ -26,11 +26,11 @@ export default function Latest() {
             <div className=" border-gray-200 border-b-[1px]">
               <div className="flex flex-row gap-1 border-gray-200 border-x-[1px] border-b-[1px] items-center  p-[2px]">
                 <div className="flex flex-row">
-                  <BsStar size={9} />
-                  <BsStar size={9} />
-                  <BsStar size={9} />
-                  <BsStar size={9} />
-                  <BsStar size={9} />
+                  <BsStarFill size={9} />
+                  <BsStarFill size={9} />
+                  <BsStarFill size={9} />
+                  <BsStarFill size={9} />
+                  <BsStarFill size={9} />
                 </div>
                 <span className="text-[8px]">(100) Reviews</span>
               </div>
@@ -54,11 +54,11 @@ export default function Latest() {
             <div className=" border-gray-200 border-b-[1px]">
               <div className="flex flex-row gap-1 border-gray-200 border-x-[1px] border-b-[1px] items-center p-[2px] ">
                 <div className="flex flex-row">
-                  <BsStar size={9} />
-                  <BsStar size={9} />
-                  <BsStar size={9} />
-                  <BsStar size={9} />
-                  <BsStar size={9} />
+                  <BsStarFill size={9} />
+                  <BsStarFill size={9} />
+                  <BsStarFill size={9} />
+                  <BsStarFill size={9} />
+                  <BsStarFill size={9} />
                 </div>
                 <span className="text-[8px]">(100) Reviews</span>
               </div>
@@ -82,11 +82,11 @@ export default function Latest() {
             <div className=" border-gray-200 border-b-[1px]">
               <div className="flex flex-row gap-1 border-gray-200 border-x-[1px] border-b-[1px] items-center p-[2px] ">
                 <div className="flex flex-row">
-                  <BsStar size={9} />
-                  <BsStar size={9} />
-                  <BsStar size={9} />
-                  <BsStar size={9} />
-                  <BsStar size={9} />
+                  <BsStarFill size={9} />
+                  <BsStarFill size={9} />
+                  <BsStarFill size={9} />
+                  <BsStarFill size={9} />
+                  <BsStarFill size={9} />
                 </div>
                 <span className="text-[8px]">(100) Reviews</span>
               </div>
